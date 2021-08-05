@@ -4,10 +4,10 @@
  * @update:      2021年07月22日
  * @description: 面向现代浏览器的样式重置方案
  * @copyright:   基于 normalize.css | Neat.css | MIT License
- * 
+ *
  * ======================================================
- * 
- * sharp.css 解决的问题: 
+ *
+ * sharp.css 解决的问题:
  * 1. 以 开发便捷 为第一目的；
  * 2. 统一元素在 不同浏览器 中的表现；
  * 3. 做 有效 的样式修改;
@@ -29,7 +29,7 @@
     margin: 0;
   }
 
-  body, 
+  body,
   dl, dd, ul, ol,
   h1, h2, h3, h4, h5, h6, p,
   form, fieldset, legend, input, textarea, optgroup,
@@ -50,7 +50,7 @@
     line-height: 1.6;
     /* 这个能帮上不少忙 */
     height: 100%;
-    overflow: auto;
+    overflow-y: scroll;
   }
 
 /*====================*
