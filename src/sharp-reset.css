@@ -113,10 +113,6 @@ h6, .h6 {
   font-size: 1em
 }
 
-address {
-  font-style: normal;
-  line-height: inherit;
-}
 
 /*
  * windows下优先 consolas(WIN 7+) 然后是 courier new(WIN XP+)
@@ -128,7 +124,20 @@ code, kbd, pre, samp,
   word-wrap: break-word;
 }
 
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+b, strong {
+  font-weight: 500
+}
+small, .small {
+  font-size: 12px;
+}
 
+
+address {
+  font-style: normal;
+  line-height: inherit;
+}
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -152,18 +161,9 @@ code, kbd, pre, samp,
 /*
  * 统一 hadding 和 bold 标签的粗体样式
  */
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6,
-b, strong {
-  font-weight: 500
-}
-
 /*
  * 网页中中文字号 size 小于 12px 将难以阅读
  */
-small, .small {
-  font-size: 12px;
-}
 
 /* 解决 sub 和 sup 元素影响行高的问题 */
 sub, sup {

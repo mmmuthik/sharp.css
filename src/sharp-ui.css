@@ -1,0 +1,220 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+/*
+* 清除常用标签的默认边距
+*/
+body, ul, ol,
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+body,
+dl, dd, ul, ol,
+h1, h2, h3, h4, h5, h6, p,
+form, fieldset, legend, input, textarea, optgroup,
+pre, blockquote, figure, hr, menu, dir,
+thead, tbody, tfoot, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  color: #234567; /* 1 */
+  line-height: 1.6;
+  overflow-y: scroll;
+  letter-spacing: .05em;
+  /* 3 */
+  font-family:
+    system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto,
+    "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+a {
+  text-decoration: none; /* 1 */
+  background-color: transparent; /* 2 */
+}
+a:active,
+a:hover {
+  color: inherit; /* 继承父元素的字色 */
+  outline-width: 0;
+}
+
+h1, .h1 { font-size: 2.5em }
+h2, .h2 { font-size: 2em }
+h3, .h3 { font-size: 1.5em }
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-size: 1.25em;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 500;
+  margin-bottom: .25em;
+}
+
+p {
+  margin-bottom: .5em;
+}
+code, kbd, pre, samp {
+  font-family: monaco, menlo, consolas, 'courier new', courier, monospace;
+  word-wrap: break-word;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+small, .small {
+  font-size: 12px;
+}
+
+address {
+  font-style: normal;
+  line-height: inherit;
+}
+
+/* 解决 sub 和 sup 元素影响行高的问题 */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -.5em;
+}
+sub {
+  bottom: -.25em;
+}
+
+kbd,
+mark {
+  background-color: rgba(0, 0, 0, .5);
+  padding-left: .25em;
+  padding-right: .25em;
+  color: #fff;
+  border-radius: 2px;
+  margin-left: .25em;
+  margin-right: .25em;
+}
+.weak {
+  color: #999;
+}
+
+hr {
+  margin:  .5em 0;
+}
+
+table {
+  width: 100%;
+  caption-side: bottom;
+  border-collapse: collapse;
+  text-align: left;
+  margin: 1rem 0;
+}
+tbody {
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+}
+tr {
+  width: 100%;
+}
+th, td {
+  padding: .25em .5em;
+}
+
+/* 表单相关 */
+textarea {
+  overflow: auto; /* IE6-9中默认显示滚动条 */
+  resize: vertical; /* 防止水平拉伸影响布局 */
+}
+
+/* 统一表单域边距 */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1;
+  margin: .25em 0;
+  padding: .25em .5em;
+  border-radius: .2em;
+  border:  1px solid #acaaf2;
+}
+textarea {
+  width: 100%;
+  display: block;
+}
+.button,
+button,
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  display: inline-block;
+  font-weight: 400;
+  line-height: inherit;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: .25em 1em;
+  border-radius: 0.25em;
+  margin: .25em .125em;
+  border-radius: 4px;
+  outline: none;
+}
+.button:hover,
+button:hover,
+input[type=button]:hover,
+input[type=submit]:hover,
+input[type=reset]:hover {
+  background-color: #ccc;
+}
+button:active,
+input[type=button]:active,
+input[type=submit]:active,
+input[type=reset]:active {
+  background-color: #aaa;
+}
+input[type=file] {
+  text-align: center;
+  background-color: #f00;
+  color: #fff;
+  display: inline-block;
+  padding: .5em 1em;
+}
+input[type=radio],
+input[type=checkbox] {
+  margin-right: .1em;
+}
