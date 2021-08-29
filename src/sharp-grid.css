@@ -11,7 +11,15 @@ body {
   padding-right: 10px;
   width: 100%;
 }
-
+.sp-grid.align-start {
+  justify-content: start
+}
+.sp-grid.align-center {
+  justify-content: center
+}
+.sp-grid.align-end {
+  justify-content: end
+}
 
 
 /* @media (min-width: 576px) { */
