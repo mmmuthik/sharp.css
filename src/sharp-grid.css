@@ -10,7 +10,10 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .sp-grid.align-start {
   justify-content: start
 }
