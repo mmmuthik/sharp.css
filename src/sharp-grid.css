@@ -1,0 +1,95 @@
+/*我们鼓励大家不要只要直接在修改样式*/
+body {
+  margin: 0;
+}
+
+.sp-grid {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+
+
+/* @media (min-width: 576px) { */
+  .sp-grid.sm-1 { width: 100% }
+  .sp-grid.sm-11 { width: 100% }
+  .sp-grid.sm-21 { width: 50% }
+  .sp-grid.sm-31 { width: 33.333333333% }
+  .sp-grid.sm-32 { width: 66.666666666% }
+  .sp-grid.sm-41 { width: 25% }
+  .sp-grid.sm-42 { width: 50% }
+  .sp-grid.sm-43 { width: 75% }
+  .sp-grid.sm-61 { width: 16.666666666% }
+  .sp-grid.sm-62 { width: 33.333333333% }
+  .sp-grid.sm-63 { width: 50% }
+  .sp-grid.sm-64 { width: 66.666666666% }
+  .sp-grid.sm-65 { width: 83.333333333% }
+/* } */
+
+@media (min-width: 768px) {
+  .sp-grid.md-1 { width: 100% }
+  .sp-grid.md-11 { width: 100% }
+  .sp-grid.md-21 { width: 50% }
+  .sp-grid.md-31 { width: 33.333333333% }
+  .sp-grid.md-32 { width: 66.666666666% }
+  .sp-grid.md-41 { width: 25% }
+  .sp-grid.md-42 { width: 50% }
+  .sp-grid.md-43 { width: 75% }
+  .sp-grid.md-61 { width: 16.666666666% }
+  .sp-grid.md-62 { width: 33.333333333% }
+  .sp-grid.md-63 { width: 50% }
+  .sp-grid.md-64 { width: 66.666666666% }
+  .sp-grid.md-65 { width: 83.333333333% }
+}
+
+@media (min-width: 992px) {
+  .sp-grid.lg-1 { width: 100% }
+  .sp-grid.lg-11 { width: 100% }
+  .sp-grid.lg-21 { width: 50% }
+  .sp-grid.lg-31 { width: 33.333333333% }
+  .sp-grid.lg-32 { width: 66.666666666% }
+  .sp-grid.lg-41 { width: 25% }
+  .sp-grid.lg-42 { width: 50% }
+  .sp-grid.lg-43 { width: 75% }
+  .sp-grid.lg-61 { width: 16.666666666% }
+  .sp-grid.lg-62 { width: 33.333333333% }
+  .sp-grid.lg-63 { width: 50% }
+  .sp-grid.lg-64 { width: 66.666666666% }
+  .sp-grid.lg-65 { width: 83.333333333% }
+}
+
+@media (min-width: 1200px) {
+  .sp-grid.xl-1 { width: 100% }
+  .sp-grid.xl-11 { width: 100% }
+  .sp-grid.xl-21 { width: 50% }
+  .sp-grid.xl-31 { width: 33.333333333% }
+  .sp-grid.xl-32 { width: 66.666666666% }
+  .sp-grid.xl-41 { width: 25% }
+  .sp-grid.xl-42 { width: 50% }
+  .sp-grid.xl-43 { width: 75% }
+  .sp-grid.xl-61 { width: 16.666666666% }
+  .sp-grid.xl-62 { width: 33.333333333% }
+  .sp-grid.xl-63 { width: 50% }
+  .sp-grid.xl-64 { width: 66.666666666% }
+  .sp-grid.xl-65 { width: 83.333333333% }
+}
+
+@media (min-width: 1400px) {
+  .sp-grid.xxl-1 { width: 100% }
+  .sp-grid.xxl-11 { width: 100% }
+  .sp-grid.xxl-21 { width: 50% }
+  .sp-grid.xxl-31 { width: 33.333333333% }
+  .sp-grid.xxl-32 { width: 66.666666666% }
+  .sp-grid.xxl-41 { width: 25% }
+  .sp-grid.xxl-42 { width: 50% }
+  .sp-grid.xxl-43 { width: 75% }
+  .sp-grid.xxl-61 { width: 16.666666666% }
+  .sp-grid.xxl-62 { width: 33.333333333% }
+  .sp-grid.xxl-63 { width: 50% }
+  .sp-grid.xxl-64 { width: 66.666666666% }
+  .sp-grid.xxl-65 { width: 83.333333333% }
+}
