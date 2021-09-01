@@ -1,5 +1,4 @@
 
-
 :root {
   --color-red: red;
   --color-blue: gray;
@@ -20,11 +19,13 @@
  ***********************************/
 
 /* 基于 border-box 盒模型书写样式 */
+html {
+  box-sizing: border-box;
+}
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  outline: none;
+  box-sizing: inherit;
 }
 
 /* 清除页面标签的基础样式 */
@@ -39,10 +40,6 @@ thead, tbody, tfoot, th, td {
   overflow-y: scroll;
 }
 
-/* 当页面高度不足满屏的时候撑开页面宽度 */
-html, body {
-  min-height: 100%;
-}
 
 /* 页面文字基本样式 */
 body {
@@ -50,6 +47,11 @@ body {
   line-height: 1.6;
   letter-spacing: .05em;
   font-family: var(--font-face-basic);
+}
+
+/* 当页面高度不足满屏的时候撑开页面宽度 */
+html, body {
+  min-height: 100%;
 }
 
 /* 去除列表类标签的样式 */
