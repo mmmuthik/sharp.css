@@ -40,7 +40,6 @@ thead, tbody, tfoot, th, td {
   overflow-y: scroll;
 }
 
-
 /* 页面文字基本样式 */
 body {
   color: var(--font-color);
@@ -245,102 +244,6 @@ input[type=checkbox] {
  * Des: 页面布局和排版用到的一些工具类;
  ***********************************/
 
- /* font-size */
-.sp-layout .lh-1, .sp-layout .lh-10 { line-height: 1em; }
-.sp-layout .lh-12 { line-height: 1.2em; }
-.sp-layout .lh-13 { line-height: 1.3em; }
-.sp-layout .lh-14 { line-height: 1.4em; }
-.sp-layout .lh-15 { line-height: 1.5em; }
-.sp-layout .lh-16 { line-height: 1.2em; }
-.sp-layout .lh-17 { line-height: 1.3em; }
-.sp-layout .lh-18 { line-height: 1.4em; }
-.sp-layout .lh-19 { line-height: 1.5em; }
-.sp-layout .lh-2, .sp-layout .lh-20 { line-height: 2em; }
-
- /* line-height */
-.sp-layout .lh-1, .sp-layout .lh-10 { line-height: 1em; }
-.sp-layout .lh-12 { line-height: 1.2em; }
-.sp-layout .lh-13 { line-height: 1.3em; }
-.sp-layout .lh-14 { line-height: 1.4em; }
-.sp-layout .lh-15 { line-height: 1.5em; }
-.sp-layout .lh-16 { line-height: 1.2em; }
-.sp-layout .lh-17 { line-height: 1.3em; }
-.sp-layout .lh-18 { line-height: 1.4em; }
-.sp-layout .lh-19 { line-height: 1.5em; }
-.sp-layout .lh-2, .sp-layout .lh-20 { line-height: 2em; }
-
- /* letter-space */
-.sp-layout .ls-01 { letter-space: .1em; }
-.sp-layout .ls-02 { letter-space: .2em; }
-.sp-layout .ls-03 { letter-space: .3em; }
-.sp-layout .ls-04 { letter-space: .4em; }
-.sp-layout .ls-05 { letter-space: .5em; }
-.sp-layout .ls-06 { letter-space: .6em; }
-.sp-layout .ls-07 { letter-space: .7em; }
-.sp-layout .ls-08 { letter-space: .8em; }
-.sp-layout .ls-09 { letter-space: .9em; }
-.sp-layout .ls-1, .sp-layout .ls-10 { letter-space: 1em; }
-
-/* margin-top */
-.sp-layout .pt-0, .sp-layout .pt-none { padding-top: 0; }
-.sp-layout .pt-025 { padding-top: .25em; }
-.sp-layout .pt-05 { padding-top: .25em; }
-.sp-layout .pt-075 { padding-top: .25em; }
-.sp-layout .pt-1, .sp-layout .pt-10 { padding-top: 1em; }
-.sp-layout .pt-125 { padding-top: 1.25em; }
-.sp-layout .pt-15 { padding-top: 1.5em; }
-.sp-layout .pt-175 { padding-top: 1.75em; }
-.sp-layout .pt-2, .sp-layout .pt-20 { padding-top: 2em; }
-.sp-layout .pt-225 { padding-top: 2.25em; }
-.sp-layout .pt-25 { padding-top: 2.5em; }
-.sp-layout .pt-275 { padding-top: 2.75em; }
-.sp-layout .pt-3, .sp-layout .pt-30 { padding-top: 3em; }
-
-/* margin-bottom */
-.sp-layout .pb-0, .sp-layout .pb-none { padding-bottom: 0; }
-.sp-layout .pb-025 { padding-bottom: .25em; }
-.sp-layout .pb-05 { padding-bottom: .25em; }
-.sp-layout .pb-075 { padding-bottom: .25em; }
-.sp-layout .pb-1, .sp-layout .pb-10 { padding-bottom: 1em; }
-.sp-layout .pb-125 { padding-bottom: 1.25em; }
-.sp-layout .pb-15 { padding-bottom: 1.5em; }
-.sp-layout .pb-175 { padding-bottom: 1.75em; }
-.sp-layout .pb-2, .sp-layout .pb-20 { padding-bottom: 2em; }
-.sp-layout .pb-225 { padding-bottom: 2.25em; }
-.sp-layout .pb-25 { padding-bottom: 2.5em; }
-.sp-layout .pb-275 { padding-bottom: 2.75em; }
-.sp-layout .pb-3, .sp-layout .pb-30 { padding-bottom: 3em; }
-
-/* padding-left */
-.sp-layout .pl-0, .sp-layout .pl-none { padding-left: 0; }
-.sp-layout .pl-025 { padding-left: .25em; }
-.sp-layout .pl-05 { padding-left: .25em; }
-.sp-layout .pl-075 { padding-left: .25em; }
-.sp-layout .pl-1, .sp-layout .pl-10 { padding-left: 1em; }
-.sp-layout .pl-125 { padding-left: 1.25em; }
-.sp-layout .pl-15 { padding-left: 1.5em; }
-.sp-layout .pl-175 { padding-left: 1.75em; }
-.sp-layout .pl-2, .sp-layout .pl-20 { padding-left: 2em; }
-.sp-layout .pl-225 { padding-left: 2.25em; }
-.sp-layout .pl-25 { padding-left: 2.5em; }
-.sp-layout .pl-275 { padding-left: 2.75em; }
-.sp-layout .pl-3, .sp-layout .pl-30 { padding-left: 3em; }
-
-/* padding-right */
-.sp-layout .pr-0, .sp-layout .pr-none { padding-right: 0; }
-.sp-layout .pr-025 { padding-right: .25em; }
-.sp-layout .pr-05 { padding-right: .25em; }
-.sp-layout .pr-075 { padding-right: .25em; }
-.sp-layout .pr-1, .sp-layout .pr-10 { padding-right: 1em; }
-.sp-layout .pr-125 { padding-right: 1.25em; }
-.sp-layout .pr-15 { padding-right: 1.5em; }
-.sp-layout .pr-175 { padding-right: 1.75em; }
-.sp-layout .pr-2, .sp-layout .pr-20 { padding-right: 2em; }
-.sp-layout .pr-225 { padding-right: 2.25em; }
-.sp-layout .pr-25 { padding-right: 2.5em; }
-.sp-layout .pr-275 { padding-right: 2.75em; }
-.sp-layout .pr-3, .sp-layout .pr-30 { padding-right: 3em; }
-
 /***********************************
  * SharpUI Style Part
  * UI样式
@@ -353,7 +256,6 @@ input[type=checkbox] {
  * ICON图标样式
  * Des: 使用iconfont丰富样式;
  ***********************************/
-
 
 /***********************************
  * Grid Part
