@@ -77,32 +77,10 @@ hr {
   margin: .5em 0; }
 
 table {
-  width: 100%;
-  caption-side: bottom;
   border-collapse: collapse;
-  text-align: left;
-  margin: 1rem 0; }
-
-tbody {
-  border-top: 1px solid currentColor;
-  border-bottom: 1px solid currentColor; }
-
-tr {
-  width: 100%; }
-
-th, td {
-  padding: .25em .5em; }
+  border-spacing: 0; }
 
 /* 表单相关 */
-textarea {
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
-  overflow: auto;
-  /* IE6-9中默认显示滚动条 */
-  resize: vertical;
-  /* 防止水平拉伸影响布局 */ }
-
 /* 统一表单域边距 */
 fieldset {
   border: 1px solid #c0c0c0;
@@ -131,16 +109,23 @@ textarea {
     box-shadow: 0 0 0 2px #96aedb;
     border-color: #96aedb; }
 
+textarea {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  overflow: auto;
+  /* IE6-9中默认显示滚动条 */
+  resize: vertical;
+  /* 防止水平拉伸影响布局 */
+  margin: 0; }
+
 input[type=text]:hover,
 input[type=password]:hover,
 input[type=email]:hover,
 input[type=search]:hover,
 textarea:hover {
   border-color: #96aedb; }
-
-textarea {
-  display: block;
-  margin-right: 0; }
 
 button,
 input[type=button],

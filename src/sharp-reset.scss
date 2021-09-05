@@ -100,31 +100,10 @@ hr {
 
 // 表格相关
 table {
-  width: 100%;
-  caption-side: bottom;
   border-collapse: collapse;
-  text-align: left;
-  margin: 1rem 0;
+  border-spacing: 0; 
 }
-tbody {
-  border-top: 1px solid currentColor;
-  border-bottom: 1px solid currentColor;
-}
-tr {
-  width: 100%;
-}
-th, td {
-  padding: .25em .5em;
-}
-
 /* 表单相关 */
-textarea {
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
-  overflow: auto; /* IE6-9中默认显示滚动条 */
-  resize: vertical; /* 防止水平拉伸影响布局 */
-}
 
 /* 统一表单域边距 */
 fieldset {
@@ -152,6 +131,15 @@ textarea {
     border-color: $color-theme;
   }
 }
+textarea {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  overflow: auto; /* IE6-9中默认显示滚动条 */
+  resize: vertical; /* 防止水平拉伸影响布局 */
+  margin: 0;
+}
 input[type=text],
 input[type=password],
 input[type=email],
@@ -160,10 +148,6 @@ textarea {
   &:hover {
     border-color: $color-theme;
   }
-}
-textarea {
-  display: block;
-  margin-right: 0;
 }
 button,
 input[type=button],

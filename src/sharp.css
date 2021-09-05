@@ -77,32 +77,10 @@ hr {
   margin: .5em 0; }
 
 table {
-  width: 100%;
-  caption-side: bottom;
   border-collapse: collapse;
-  text-align: left;
-  margin: 1rem 0; }
-
-tbody {
-  border-top: 1px solid currentColor;
-  border-bottom: 1px solid currentColor; }
-
-tr {
-  width: 100%; }
-
-th, td {
-  padding: .25em .5em; }
+  border-spacing: 0; }
 
 /* 表单相关 */
-textarea {
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
-  overflow: auto;
-  /* IE6-9中默认显示滚动条 */
-  resize: vertical;
-  /* 防止水平拉伸影响布局 */ }
-
 /* 统一表单域边距 */
 fieldset {
   border: 1px solid #c0c0c0;
@@ -131,16 +109,23 @@ textarea {
     box-shadow: 0 0 0 2px #96aedb;
     border-color: #96aedb; }
 
+textarea {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  overflow: auto;
+  /* IE6-9中默认显示滚动条 */
+  resize: vertical;
+  /* 防止水平拉伸影响布局 */
+  margin: 0; }
+
 input[type=text]:hover,
 input[type=password]:hover,
 input[type=email]:hover,
 input[type=search]:hover,
 textarea:hover {
   border-color: #96aedb; }
-
-textarea {
-  display: block;
-  margin-right: 0; }
 
 button,
 input[type=button],
@@ -200,15 +185,43 @@ input[type=checkbox] {
   .card .footer {
     border-top: 1px solid #eee; }
 
+.list {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #aaa;
+  margin-bottom: 1em; }
+  .list > li {
+    padding: .5em;
+    border-bottom: 1px solid #aaa; }
+    .list > li:last-child {
+      border-bottom: none; }
+  .list.hover li:hover {
+    background-color: rgba(124, 183, 212, 0.1); }
+
+.fs-table {
+  width: 100%;
+  caption-side: bottom;
+  text-align: left;
+  margin: 1rem 0; }
+  .fs-table tbody {
+    border-top: 1px solid currentColor;
+    border-bottom: 1px solid currentColor; }
+  .fs-table tr {
+    width: 100%; }
+  .fs-table th, .fs-table td {
+    padding: .25em .5em; }
+
 .sp-grid {
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto; }
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%; }
+  .sp-grid > * {
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box; }
 
 /* @media (min-width: 576px) { */
 .sp-grid > .sm-1 {
