@@ -1,8 +1,5 @@
+@import 'sharp-colors';
 
-// 字体相关
-$color-theme: #96aedb;
-$color-theme-weak: rgba(124, 183, 212, .1);
-$font-color: #312735;
 // 黑体字
 $font-sans-serif:
   system-ui, -apple-system,
@@ -138,7 +135,6 @@ textarea {
   width: 100%;
   overflow: auto; /* IE6-9中默认显示滚动条 */
   resize: vertical; /* 防止水平拉伸影响布局 */
-  margin: 0;
 }
 input[type=text],
 input[type=password],
@@ -148,38 +144,4 @@ textarea {
   &:hover {
     border-color: $color-theme;
   }
-}
-button,
-input[type=button],
-input[type=submit],
-input[type=reset] {
-  display: inline-block;
-  font-weight: 400;
-  line-height: inherit;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  user-select: none;
-  background-color: inherit;
-  padding: .25em 1em;
-  border-radius: 0.25em;
-  border-radius: 4px;
-  outline: none;
-  &:hover {
-    border-color: $color-theme;
-  }
-  &:active {
-    background-color: $color-theme-weak;
-  }
-}
-input[type=file] {
-  text-align: center;
-  background-color: #f00;
-  color: #fff;
-  display: inline-block;
-  padding: .5em 1em;
-}
-input[type=radio],
-input[type=checkbox] {
-  margin-right: .1em;
 }

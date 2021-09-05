@@ -1,5 +1,4 @@
-
-$color-theme-weak: rgba(124, 183, 212, .1);
+@import 'sharp-colors';
 
 
 .lg-center {}
@@ -68,4 +67,27 @@ $color-theme-weak: rgba(124, 183, 212, .1);
     padding: .25em .5em;
   }
   
+}
+
+button,
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  display: inline-block;
+  font-weight: 400;
+  line-height: inherit;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: inherit;
+  padding: .25em 1em;
+  border-radius: 4px;
+  outline: none;
+  &:hover {
+    border-color: $color-theme;
+  }
+  &:active {
+    background-color: $color-theme-weak;
+  }
 }

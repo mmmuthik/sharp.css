@@ -44,4 +44,30 @@
   .fs-table th, .fs-table td {
     padding: .25em .5em; }
 
+button,
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  display: inline-block;
+  font-weight: 400;
+  line-height: inherit;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: inherit;
+  padding: .25em 1em;
+  border-radius: 4px;
+  outline: none; }
+  button:hover,
+  input[type=button]:hover,
+  input[type=submit]:hover,
+  input[type=reset]:hover {
+    border-color: #96aedb; }
+  button:active,
+  input[type=button]:active,
+  input[type=submit]:active,
+  input[type=reset]:active {
+    background-color: rgba(124, 183, 212, 0.1); }
+
 /*# sourceMappingURL=sharp-ui.css.map */
